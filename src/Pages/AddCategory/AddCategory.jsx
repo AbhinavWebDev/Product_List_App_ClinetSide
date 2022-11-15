@@ -35,7 +35,7 @@ export const AddCategory = () => {
   const [catID, setCatID] = React.useState("");
   const handleOpen = () => setOpenAdd(true);
   const handleClose = () => setOpenAdd(false);
-  const [open, setOpen] = React.useState(true);
+  const [open, setOpen] = React.useState(false);
 
   const handleClick = () => {
     setOpen(!open);
